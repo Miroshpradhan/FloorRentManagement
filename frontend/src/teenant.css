@@ -1,0 +1,29 @@
+ .TenantForm {
+  background-color: #000;
+  color: white;
+  padding: 20px;
+}
+
+.TenantForm input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: none;
+  background-color: #363c47; 
+  color: white;
+}
+
+.TenantForm input::placeholder {
+  color: white;
+}
+
+.TenantForm button {
+  padding: 5px 10px;
+  background-color: #34ce74; 
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.TenantForm button:hover {
+  background-color: #27ae60; 
+}

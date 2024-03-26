@@ -1,0 +1,202 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #343a46;
+  justify-content: center;
+  align-items: center;
+}
+.floors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.floors a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 5px 8px 7px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: #333;
+  width: 990px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.floors a:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+.dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.dashboard h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.floor-selector {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.floor-selector label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.floor-selector select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  appearance: none; 
+}
+
+
+
+.floor-buttons button {
+  padding: 8px 12px;
+  margin-right: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.floor-buttons button.selected {
+  background-color: #555;
+}
+
+
+.floor-selector select:focus {
+  outline: none;
+  border-color: #333;
+}
+
+
+
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.4rem;
+  top: 1px;
+  text-align: center;
+}
+
+
+
+.image {
+  width: 70px;
+  height: auto;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+}
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #343a46;
+  color: white;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .App-header {
+    padding: 19px;
+    font-size: 1.2rem; 
+  }
+}
+
+
+.App-header h1 {
+  margin: 0;
+}
+
+
+.chimney {
+  position: absolute;
+  top: 150px; 
+  right: 30px;
+  width: 50px; 
+  height: 50px; 
+
+  animation: smoke 2s linear infinite;
+}
+
+@keyframes smoke {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.chimneys {
+  position: absolute;
+  top: 1;
+  left: 0;
+  
+  fill: #e6e3e3;
+}
+@media only screen and (max-width: 768px) {
+  .floors {
+    margin-top: 30px;
+  }
+
+  .floors a {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+.b1 {
+  padding: 10px 12px 15px 20px;
+  background-color: #4c9e92;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+}
+
+.b1:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+.b1:active {
+  background-color: #3e8e41;
+  transform: translateY(1px);
+}

@@ -1,0 +1,241 @@
+.rent-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the top */
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  width: 95%;
+  max-width: 600px;
+  background-color: #dfdada;
+}
+
+.rent-info-container.show {
+  opacity: 1;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.user-name {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0c0c0c;
+}
+
+.bill-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.bill-info div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bill-info h3 {
+  color: #757575;
+  font-size: 14px;
+}
+
+.bill-info h3:not(:first-child) {
+  margin-left: 20px;
+}
+
+.monthly-bill {
+  margin-top: 20px;
+  background-color: #a7d7cd;
+}
+
+.monthly-bill h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.monthly-bill div {
+  display: flex;
+  flex-direction: column;
+}
+
+.monthly-bill h4 {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #757575;
+}
+
+button {
+  background-color: #66dec6;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 150px;
+}
+
+button:hover {
+  background-color: #e6e6e6;
+}
+
+button:focus {
+  outline: none;
+}
+
+.floor-info-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.floor-details-container,
+.floor-rent-info-container {
+  display: none;
+}
+
+.floor-details-container.show,
+.floor-rent-info-container.show {
+  display: flex;
+}
+
+.floor-details-container {
+  flex-direction: column;
+}
+
+.floor-details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.floor-details-header h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.floor-details-container div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  width: 100%;
+  max-width: 600px;
+}
+
+.floor-details-container div h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #fcfbfb;
+}
+
+.floor-details-container div span {
+  font-size: 14px;
+  color: #a59e9e;
+}
+
+.floor-rent-info-container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.floor-rent-info-container h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #b1daf3;
+}
+
+.floor-rent-info-container div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #c3b1b1;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 10px;
+}
+
+.floor-rent-info-container div h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+.floor-rent-info-container div span {
+  font-size: 14px;
+  color: #757575;
+}
+.Link {
+  color: #3498db; 
+  text-decoration: none; 
+  font-weight: bold; 
+  padding: 5px 10px; 
+  border: 2px solid #3498db; 
+  border-radius: 5px; 
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Link:hover {
+  background-color: #3498db; 
+  color: white; 
+}
+
+@media (max-width: 600px) {
+  .rent-info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-info,
+  .bill-info {
+    width: 100%;
+  }
+
+  .bill-info {
+    margin-top: 20px;
+  }
+
+  .bill-info div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bill-info h3 {
+    margin: 5px 0;
+  }
+
+  button {
+    width: 100%;
+    max-width: none;
+  }
+}
