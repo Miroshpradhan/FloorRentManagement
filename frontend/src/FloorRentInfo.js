@@ -73,7 +73,7 @@ const FloorRentInfo = ({ floorDetails, onRemoveTenant, onClose, onUpdateTenant,t
                         <h4>Electricity: {electricity}</h4>
                         <h4>Water: {water}</h4>
                         <h4>Internet: {internet}</h4>
-                        <h4>Others: {others}</h4>
+                        <h4>Floor/Room's  Rent: {others}</h4>
                     </div>
                 </div>
                 <div className="edit-paid">

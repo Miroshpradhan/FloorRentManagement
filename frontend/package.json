@@ -1,6 +1,6 @@
 {
   "name": "property-management",
-  "homepage": "https://miroshpradhan.github.io/FloorRentManagement",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {

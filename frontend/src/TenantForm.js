@@ -88,7 +88,7 @@ const TenantForm = ({ onAddTenant }) => {
       <input
         type="number"
         name="others"
-        placeholder="Others"
+        placeholder="Floor/Room's  Rent"
         value={others}
         onChange={handleInputChange}
       />
