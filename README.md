@@ -51,23 +51,22 @@ Demo(For this to work you need to connect to mongoDB default connection string):
 https://floorwatch.netlify.app/
 
 ScreenShots for the Different sizes Desktop,Tablets and Mobile:
-![Screenshot 1](https://raw.githubusercontent.com/Miroshpradhan/ResponsiveTodo/master/screenshots/screenshot1.png)
+![Screenshot 1](https://raw.githubusercontent.com/Miroshpradhan/FloorRentManagement/master/screenshots/screenshot1.png)
 
-![Screenshot 2](https://raw.githubusercontent.com/Miroshpradhan/ResponsiveTodo/master/screenshots/screenshot2.png)
+![Screenshot 2](https://raw.githubusercontent.com/Miroshpradhan/FloorRentManagement/master/screenshots/screenshot2.png)
 
-![Screenshot 3](https://raw.githubusercontent.com/Miroshpradhan/ResponsiveTodo/master/screenshots/screenshot3.png)
+![Screenshot 3](https://raw.githubusercontent.com/Miroshpradhan/FloorRentManagement/master/screenshots/screenshot3.png)
 
-![Screenshot 4](https://raw.githubusercontent.com/Miroshpradhan/ResponsiveTodo/master/screenshots/screenshot4.png)
+![Screenshot 4](https://raw.githubusercontent.com/Miroshpradhan/FloorRentManagement/master/screenshots/screenshot4.png)
 
-![Screenshot 5](https://raw.githubusercontent.com/Miroshpradhan/ResponsiveTodo/master/screenshots/screentshot5.png)
+![Screenshot 5](https://raw.githubusercontent.com/Miroshpradhan/FloorRentManagement/master/screenshots/screenshot5.png)
 
-![Screenshot 6](https://raw.githubusercontent.com/Miroshpradhan/ResponsiveTodo/master/screenshots/screentshot6.png)
+![Screenshot 6](https://raw.githubusercontent.com/Miroshpradhan/FloorRentManagement/master/screenshots/screenshot6.png)
 
-![Screenshot 7](https://raw.githubusercontent.com/Miroshpradhan/ResponsiveTodo/master/screenshots/screentshot7.png)
-![Screenshot 8](https://raw.githubusercontent.com/Miroshpradhan/ResponsiveTodo/master/screenshots/screenshot8.png)
+![Screenshot 7](https://raw.githubusercontent.com/Miroshpradhan/FloorRentManagement/master/screenshots/screenshot7.png)
 
-![Screenshot 9](https://raw.githubusercontent.com/Miroshpradhan/ResponsiveTodo/master/screenshots/screenshot9.png)
+![Screenshot 8](https://raw.githubusercontent.com/Miroshpradhan/FloorRentManagement/master/screenshots/screenshot8.png)
 
-![Screenshot 10](https://raw.githubusercontent.com/Miroshpradhan/ResponsiveTodo/master/screenshots/screenshot10.png)
+![Screenshot 9](https://raw.githubusercontent.com/Miroshpradhan/FloorRentManagement/master/screenshots/screenshot9.png)
 
-
+![Screenshot 10](https://raw.githubusercontent.com/Miroshpradhan/FloorRentManagement/master/screenshots/screenshot10.png)
